@@ -11,6 +11,8 @@ It solves a common problem with naive agents: **Redundant Tool Usage**. instead 
 -   **Context Retention**: Persists conversation history in a local SQLite database using `Agno`.
 -   **Cost Efficiency**: Programmatically disables tool usage for follow-up reasoning questions ("Why did you choose that?"), forcing the agent to synthesize existing knowledge instead of wasting tokens and API credits on new searches.
 
+![output example](https://github.com/user-attachments/assets/af8a2aa2-dd35-48fb-a9c1-1496287f0f84)
+
 ## 🏗️ Architecture
 
 The agent operates in two modes depending on the user's intent, managed by the `demo.py` CLI wrapper:
